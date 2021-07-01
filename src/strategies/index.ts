@@ -90,6 +90,7 @@ import { strategy as apescape } from './apescape';
 import { strategy as liftkitchen } from './liftkitchen';
 import { strategy as decentralandEstateSize } from './decentraland-estate-size';
 import { strategy as iotexBalance } from './iotex-balance';
+import { strategy as iotexStakedBalance } from './iotex-staked-balance';
 import { strategy as xrc20BalanceOf } from './xrc20-balance-of';
 import { strategy as brightid } from './brightid';
 import { strategy as inverseXINV } from './inverse-xinv';
@@ -98,7 +99,9 @@ import { strategy as spookyswap } from './spookyswap';
 import { strategy as rnbwBalance } from './rnbw-balance';
 import { strategy as celerSgnDelegation } from './celer-sgn-delegation';
 import { strategy as balancerDelegation } from './balancer-delegation';
+import { strategy as infinityProtocolPools } from './infinityprotocol-liquidity-pools';
 import { strategy as aaveGovernancePower } from './aave-governance-power';
+import { strategy as cake } from './cake';
 
 export default {
   balancer,
@@ -196,10 +199,13 @@ export default {
   'inverse-xinv': inverseXINV,
   modefi,
   'iotex-balance': iotexBalance,
+  'iotex-staked-balance': iotexStakedBalance,
   'xrc20-balance-of': xrc20BalanceOf,
   spookyswap,
   'rnbw-balance': rnbwBalance,
   'celer-sgn-delegation': celerSgnDelegation,
   'balancer-delegation': balancerDelegation,
-  'aave-governance-power': aaveGovernancePower
+  'infinityprotocol-liquidity-pools': infinityProtocolPools,
+  'aave-governance-power': aaveGovernancePower,
+  cake
 };
